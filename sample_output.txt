@@ -1,0 +1,21 @@
+=== System Monitor ===
+Date: Tue Oct 20 19:12:40 MSK 2026
+
+--- Uptime ---
+ 19:12:40 up 1 day, 12:12,  1 user,  load average: 0.00, 0.00, 0.00
+
+--- Memory ---
+               total        used        free      shared  buff/cache   available
+Mem:           1.9Gi       199Mi       473Mi       0.0Ki       1.2Gi       1.5Gi
+Swap:             0B          0B          0B
+
+--- Disk ---
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           190M  916K  189M   1% /run
+/dev/sda1       9.6G  3.0G  6.6G  31% /
+tmpfs           950M     0  950M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/sda15      105M  6.1M   99M   6% /boot/efi
+tmpfs           190M  4.0K  190M   1% /run/user/1001
+
+======================
