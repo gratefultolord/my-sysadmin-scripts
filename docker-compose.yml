@@ -3,9 +3,11 @@ services:
     build: .
     image: my-script
     container_name: sys-monitor
+    ports:
+      - "127.0.0.1:8080:8080"
     volumes:
-      - monitor-data:/app
-    restart: unless-stopped
+      - monitor-data:/var/www
+    restart: "no"
 
 volumes:
   monitor-data:
